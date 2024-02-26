@@ -37,10 +37,10 @@ account if needed.
 To further enhance security, the application automatically logs out users if idle for more than 5 minutes, 
 ensuring data protection even when the application is left unattended.
 
-[!CAUTION]
-Please note that while this password manager incorporates some security measures, it is primarily developed for learning 
-purposes and do not offer the same level of security as commercial-grade password managers. Exercise caution and 
-understand the limitations before entrusting it with sensitive information.
+> [!CAUTION]
+> **Please note that while this password manager incorporates some security measures, it is primarily developed for learning 
+> purposes and do not offer the same level of security as commercial-grade password managers. Exercise caution and 
+> understand the limitations before entrusting it with sensitive information.**
 
 ## Features
 
