@@ -1,6 +1,0 @@
-__pycache__/
-.pytest_cache/
-*.pyc
-.idea/
-*.py[cod]
-*$py.class
