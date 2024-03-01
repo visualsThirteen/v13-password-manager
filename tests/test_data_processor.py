@@ -1,4 +1,4 @@
-from v13pwm.data_processor import DataProcessor
+from v13pwm.models.data_processor import DataProcessor
 import pytest
 import sqlite3
 import os

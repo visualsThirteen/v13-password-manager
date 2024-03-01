@@ -66,6 +66,18 @@ class DataProcessor:
             con.commit()
 
     @staticmethod
+    def get_all_apps() -> list:
+        """
+        Returns list of all apps in database.
+        :return list: All apps in database.
+        """
+        with sqlite3.connect(DataProcessor.DB_PATH) as con:
+            cur = con.cursor()
+            cur.execute("SELECT app FROM password_manager")
+            values = cur.fetchall()
+            return values
+
+    @staticmethod
     def delete_table():
         """
         Deletes password_manager table.
@@ -113,15 +125,3 @@ class DataProcessor:
         """
         if os.path.exists("pwm_data/data.json"):
             os.remove("pwm_data/data.json")
-
-    @staticmethod
-    def get_all_apps() -> list:
-        """
-        Returns list of all apps in database.
-        :return list: All apps in database.
-        """
-        with sqlite3.connect(DataProcessor.DB_PATH) as con:
-            cur = con.cursor()
-            cur.execute("SELECT app FROM password_manager")
-            values = cur.fetchall()
-            return values

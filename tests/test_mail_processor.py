@@ -1,4 +1,4 @@
-from v13pwm.mail_processor import MailProcessor
+from v13pwm.models.mail_processor import MailProcessor
 
 
 def test_valid_emails():

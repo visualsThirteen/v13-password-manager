@@ -1,6 +1,6 @@
-from view import AppView
-from controller import AppController
-from security_engine import SecurityEngine
+from views.view import AppView
+from controllers.controller import AppController
+from models.security_engine import SecurityEngine
 
 
 def main():

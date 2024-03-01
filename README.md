@@ -76,7 +76,7 @@ This program sends OTP (One Time Password) via e-mail to authenticate user enter
 To be able to run and test this application, it is necessary to set up applications e-mail configuration with your 
 own e-mail.
 
-Inside `mail_processor.py` file:
+Inside `models/mail_processor.py` file:
 
 ```python
     class MailProcessor:

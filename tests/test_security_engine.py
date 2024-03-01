@@ -1,4 +1,4 @@
-from v13pwm.security_engine import SecurityEngine
+from v13pwm.models.security_engine import SecurityEngine
 
 
 class TestSecurityEngine:
